@@ -1,0 +1,21 @@
+<script>
+	$(document).ready(function(){
+		$('.my-slider').unslider({infinite: true}); // Slider principal
+		$('.carrousel-productos').slick({
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			responsive: [{
+		        breakpoint: 1240,
+		        settings: {
+		            slidesToShow: 3
+		        }
+		    }, {
+		        breakpoint: 800,
+		        settings: "unslick"
+		    }
+		    ]
+			});
+	});
+
+</script>

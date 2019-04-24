@@ -1,0 +1,14 @@
+{
+    "name": "Cezanne",
+    "short_name": "Cezanne",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#113e50",
+    "background_color": "#113e50",
+    "display": "standalone"
+}

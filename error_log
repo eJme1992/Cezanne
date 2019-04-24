@@ -1,0 +1,32 @@
+[14-Nov-2017 13:29:04 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[14-Nov-2017 13:29:04 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[09-Dec-2017 16:40:43 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[09-Dec-2017 16:40:43 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[10-Dec-2017 02:21:59 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[10-Dec-2017 02:21:59 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[09-Jan-2018 15:41:58 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[09-Jan-2018 15:41:58 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[06-Feb-2018 07:13:48 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[06-Feb-2018 07:13:48 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[09-Mar-2018 15:39:30 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[09-Mar-2018 15:39:30 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[08-Apr-2018 15:54:56 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[08-Apr-2018 15:54:56 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[09-Apr-2018 09:23:39 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[09-Apr-2018 09:23:39 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  fopen(./cache.tw): failed to open stream: File exists in /home/corinac5/public_html/index.php on line 13
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/corinac5/public_html/index.php on line 15
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/corinac5/public_html/index.php on line 16
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  fopen(./cache.tw): failed to open stream: File exists in /home/corinac5/public_html/index.php on line 13
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/corinac5/public_html/index.php on line 15
+[22-Apr-2018 08:37:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/corinac5/public_html/index.php on line 16
+[23-Apr-2018 06:58:33 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[23-Apr-2018 06:58:33 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12
+[26-Apr-2018 03:52:37 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/corinac5/public_html/index.php on line 12
+[26-Apr-2018 03:52:37 UTC] PHP Warning:  file_get_contents(https://www.towebs.com/remotecontent/linux/newsite): failed to open stream: no suitable wrapper could be found in /home/corinac5/public_html/index.php on line 12

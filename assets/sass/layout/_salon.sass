@@ -1,0 +1,54 @@
+.servicios
+	width: 80%
+	margin: 0 auto 80px auto
+	display: flex 
+	flex-direction: row
+	flex-wrap: wrap 
+	justify-content: space-between 
+	align-items: flex-start
+	@media screen and  (max-width: $break-md)
+		width: 90%
+	@media screen and  (max-width: $break-sm)
+		margin-bottom: 20px
+		justify-content: center
+	.medio-servicio
+		width: 11%
+		margin-bottom: 35px
+		display: flex
+		flex-direction: column
+		align-items: center
+		@media screen and  (max-width: $break-sm)
+			display: none
+	.servicio
+		width: 22%
+		margin-bottom: 35px
+		display: flex
+		flex-direction: column
+		align-items: center
+		@media screen and  (max-width: $break-sm)
+			width: 48%
+			margin: 0 1% 35px 1%
+		.icono-servicio
+			width: 65%
+			margin: 0 auto
+			transition: all 0.3s ease
+			&:hover
+				transform: scale(1.1)
+		.titulo-servicio
+			margin: 15px auto
+			font-family: $fuente
+			color: $color2
+			font-weight: $bold
+			text-transform: uppercase
+			text-align: center
+			font-size: 130%
+			line-height: 1.2
+		.desc-servicio
+			font-family: $fuente
+			color: $negro
+			text-align: center
+			font-size: 120%
+			line-height: 1.3
+
+
+

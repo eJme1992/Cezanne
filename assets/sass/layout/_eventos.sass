@@ -1,0 +1,44 @@
+.pagina-eventos
+	background-image: url('../img/bg-intermedio.png')
+	background-size: 22% auto
+	background-repeat: no-repeat
+	background-position: 82% 75%
+	padding: 30px 0 70px 0
+	@media screen and  (max-width: $break-sm)
+		padding: 0
+	.contenedor-eventos
+		width: 80%
+		margin: 30px auto
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap 
+		justify-content: space-between
+		align-items: flex-start
+		@media screen and  (max-width: $break-sm)
+			width: 100%
+		.texto-pagina-eventos 
+			width: 48%
+			margin-top: 50px
+			order: 2
+			text-align: center
+			@media screen and  (max-width: $break-lg)
+				margin-top: 20px
+			@media screen and  (max-width: $break-sm)
+				width: 100%
+		.img-pagina-eventos 
+			width: 45%
+			@media screen and  (max-width: $break-sm)
+				width: 100%
+				order: 1
+	.imagen-superpuesta-eventos
+		width: 35%
+		margin: -100px 35% 0 auto
+		@media screen and  (max-width: $break-lg)
+			margin-top: -50px
+		@media screen and  (max-width: $break-md)
+			margin-top: -150px
+			margin-left: 60%
+		@media screen and  (max-width: $break-sm)
+			width: 100%
+			margin: 20px 0 50px 0
+			order: 3

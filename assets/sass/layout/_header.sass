@@ -1,0 +1,194 @@
+.hamburger
+	display: none
+	@media screen and  (max-width: $break-lg)
+		display: block
+		position: absolute
+		right: 5%
+		top: 60px
+		cursor: pointer
+		z-index: 1500
+		transition: all 0.3s ease
+	@media screen and  (max-width: $break-sm)
+		right: 6%
+		top: 35px
+
+
+@media screen and  (max-width: $break-lg)
+	.bar
+		width: 26px
+		height: 3px
+		background: $color2
+		display: block
+		margin-bottom: 4px
+		transform-origin: 0% 0%
+		transition: all 0.3s ease-in-out
+		&.active
+			background: $color2
+			&:nth-of-type(1)
+				transform: translateX(3px) translateY(-3px) rotate(45deg)
+			&:nth-of-type(2)
+				opacity: 0
+			&:nth-of-type(3) 
+				transform: translateX(1px) translateY(1px) rotate(-45deg)
+				
+header 
+	width: 100%
+	padding: 20px 0
+	position: fixed
+	z-index: 1000
+	top: 0
+	left: 0
+	display: flex 
+	flex-direction: row
+	flex-wrap: wrap 
+	justify-content: space-between 
+	align-items: center
+
+	font-family: $fuente
+	color: $blanco
+	text-transform: uppercase
+	font-size: 100%
+	letter-spacing: 1px
+
+	transition: all 0.5s ease-out
+	@media screen and  (max-width: $break-lg)
+		padding: 20px 0
+	&.sticky
+		padding: 10px 30px
+		background-color: $blanco
+		box-shadow: 0px 10px 12px -1px rgba(0,0,0,0.10)
+		z-index: 900
+		@media screen and  (max-width: $break-lg)
+			padding: 20px 0
+		.header-social .social a svg path
+			fill: $color1
+		.hamburger
+			@media screen and  (max-width: $break-lg)
+				top: 50px
+			@media screen and  (max-width: $break-sm)
+				top: 38px
+			.bar
+				background-color: $color1
+		nav ul li 
+			color: $color1
+			&:before
+				background-color: $color1	
+	.contenedor-1150
+		@media screen and  (max-width: $break-lg)
+			justify-content: flex-start
+	.header-social
+		width: 40%
+		display: flex 
+		flex-direction: row
+		flex-wrap: wrap 
+		justify-content: flex-start 
+		align-items: center
+		.social
+			width: 23px
+			margin-right: 15px
+			transition: all 0.3s ease
+			&:hover 
+				transform: translateY(-3px)
+			svg path
+				fill: $blanco
+	.logo
+		width: 10%
+		transition: all 0.5s ease-out
+		@media screen and  (max-width: $break-lg)
+			width: 15%
+		@media screen and  (max-width: $break-sm)
+			width: 25%
+		.logo-sticky
+			display: none
+		&.sticky
+			max-width: 180px
+			padding: 0 16px
+			@media screen and  (max-width: $break-sm)
+				max-width: 25%
+				padding: 0
+			.logo-sticky
+				display: block
+			.logo-base
+				display: none
+	nav 
+		width: 40%
+		transition: all 0.3s 0.3s ease
+		@media screen and  (max-width: $break-lg)
+			display: none
+			opacity: 0
+			transform: translateY(-17vh)
+			background-color: $blanco
+			padding: 10px 30px 0 30px
+			transition: all 0.5s ease-out
+		@media screen and  (max-width: $break-md)
+			transform: translateX(100%), translateY(0)
+		@media screen and  (max-width: $break-sm)
+			padding: 30px 15px
+			&.active 
+				display: flex
+				opacity: 1
+				transform: translateY(0)
+				width: 100%
+				position: absolute
+				right: 0
+				top: 0
+				height: 17vh
+				@media screen and  (max-width: $break-md)
+					height: 100vh
+					width: 75%
+					flex-direction: column
+					transform: translateX(0)
+				ul 
+					color: $color2
+					width: 85%
+					padding-left: 15%
+					@media screen and  (max-width: $break-sm)
+						width: 90%
+						padding-left: 5%
+		@media screen and  (max-width: $break-md)
+			height: 100vh
+		ul 
+			width: 100%
+			display: flex 
+			flex-direction: row
+			flex-wrap: wrap 
+			justify-content: space-between 
+			align-items: center
+			@media screen and  (max-width: $break-md)
+				flex-direction: column
+				font-size: 150%
+				padding-top: 50px
+			@media screen and  (max-width: $break-sm)
+				padding-top: 25px
+				font-size: 130%
+			li 
+				display: inline-block
+				position: relative
+				padding: 15px 0
+				cursor: pointer
+				overflow: hidden
+				&:before
+					content: ''
+					width: 100%
+					height: 1px 
+					background-color: $blanco
+					position: absolute
+					bottom: 0
+					left: 0
+					transition: all 0.3s ease
+					transform: translateY(-70px)
+					@media screen and  (max-width: $break-md)
+						display: none
+				&:hover
+					&:before 
+						transform: translateY(0)
+				@media screen and  (max-width: $break-md)
+					width: 100%
+					padding: 30px 0
+					border-bottom: solid 1px rgba(0,0,0,0.3)
+					text-align: center
+				@media screen and  (max-width: $break-sm)
+					padding: 20px
+				span 
+					color: $color1
+					opacity: 0.8

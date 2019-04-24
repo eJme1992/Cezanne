@@ -1,0 +1,119 @@
+.texto-precontacto
+	width: 80%
+	margin: 0 auto 40px auto
+	text-align: center
+
+.contacto
+	width: 100%
+	padding: 80px 0 50px 0
+	background: rgba(#eeeeee, 0.3)
+	@media screen and  (max-width: $break-sm)
+		padding-top: 60px
+	.titulo-contacto
+		width: 100%
+		position: absolute
+		left: 0
+		top: 4%
+		text-align: center
+		z-index: 0
+		opacity: 0.10
+	.contenedor-form
+		width: 70%
+		margin: 0 auto
+		@media screen and  (max-width: $break-md)
+			width: 85%
+		form 
+			width: 100%
+			display: flex
+			flex-direction: row
+			flex-wrap: wrap 
+			justify-content: space-between
+			fieldset 
+				width: 49%
+				margin-bottom: 15px
+				@media screen and  (max-width: $break-sm)
+					width: 100%
+					margin-bottom: 5px
+				&.full 
+					width: 100%
+				input, textarea 
+					width: 100%
+					border: 1px solid rgba($color2, 0.6)
+					padding: 15px
+					font-family: $fuente 
+					background: none
+				.error
+					padding: 15px
+					line-height: 2
+					color: red
+			.btn-enviar
+				width: 20%
+				margin: 20px 0 30px 80%
+				padding: 15px
+				border: 1px solid $color2
+				background: rgba(#eeeeee, 0.3)
+				color: $color2
+				font-family: $fuente
+				text-transform: uppercase
+				font-size: 110%
+				letter-spacing: 5px
+				transition: all 0.3s ease
+				cursor: pointer
+				@media screen and  (max-width: $break-sm)
+					width: 50%
+					margin-left: 50%
+				&:hover
+					background: $color2
+					border-color: $color2
+					color: $blanco
+			.success
+				width: 100%
+				text-align: center
+				color: green
+				font-size: 120%
+
+.info-contacto
+	width: 50%
+	margin: 25px auto
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: center
+	align-items: center
+	@media screen and  (max-width: $break-md)
+		width: 70%
+	@media screen and  (max-width: $break-sm)
+		width: 80%
+	.dato-contacto
+		width: 46%
+		margin: 20px 2%
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: center
+		align-items: center
+		@media screen and  (max-width: $break-sm)
+			width: 100%
+			margin: 0 0 10px 0
+		.icono-contacto
+			width: 20px
+			margin-right: 15px
+			transition: all 0.3s ease
+		.desc-contacto
+			font-family: $fuente
+			font-size: 110%
+			transition: all 0.3s ease
+			@media screen and  (max-width: $break-sm)
+				font-size: 130%
+		&:hover
+			.icono-contacto
+				transform: translateY(-3px)
+			.desc-contacto
+				color: $color2
+				
+.mapa
+	width: 100%
+	height: 400px
+	iframe
+		width: 100%
+		height: 400px

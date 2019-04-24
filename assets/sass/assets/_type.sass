@@ -1,0 +1,71 @@
+//Familias tipográficas - Fuentes
+$fuenteBase: Arial, sans-serif
+$fuenteBaseCursiva: Garamond, serif
+$fuente: 'Montserrat', $fuenteBase
+$fuenteCursiva: 'Playfair Display', $fuenteBaseCursiva
+
+//Variables Fuentes
+$thin: 100
+$extra-light: 200
+$light: 300
+$regular: 400
+$medium: 500
+$semi-bold: 600
+$bold: 700
+$extra-bold: 800
+$black: 900
+
+body
+	font-size: 12px
+	font-family: $fuente
+	@media screen and  (max-width: $break-sm)
+		font-size: 10px
+
+h1
+	font-size: 800%
+	font-family: $fuenteCursiva
+	font-weight: $bold
+	font-style: italic
+	color: $color2
+	text-transform: lowercase
+	letter-spacing: 5px
+	@media screen and  (max-width: $break-md)
+		font-size: 600%
+	@media screen and  (max-width: $break-sm)
+		font-size: 400%
+		letter-spacing: 1px
+
+h2
+	font-size: 150%
+	font-family: $fuente
+	font-weight: $regular
+	letter-spacing: 3px
+	text-transform: uppercase
+
+h3
+	font-size: 280%
+	font-family: $fuenteCursiva
+	font-weight: $bold
+	font-style: italic
+	color: $color2
+	letter-spacing: 1px
+
+h4
+	font-size: 117%
+	font-family: $fuente
+	font-weight: $regular
+	letter-spacing: 1px
+	text-transform: uppercase
+
+h5
+	font-size: 150%
+	font-family: $fuente
+	font-weight: $light
+	letter-spacing: 1px
+	line-height: 1.2
+	color: $negro
+	@media screen and  (max-width: $break-sm)
+		font-size: 185%
+
+.bold
+	font-weight: $bold

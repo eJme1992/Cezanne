@@ -1,0 +1,46 @@
+
+#galeria {
+ width: 95%;
+ margin: auto; 
+ margin-bottom:20px;
+ display: grid;
+ grid-template: auto auto  / 50% 50%;
+}
+
+#imgMostrar {
+border: 1px solid #F2F2F2;
+border-radius: 25px;
+height: auto;
+}
+
+#galeria_miniaturas{
+	display: table;
+    margin: 0 auto;
+}
+
+.miniatura {
+width:  60px;
+height:  60px;
+border-radius: 10px;
+float: left;
+cursor: pointer;
+padding: 5px;
+margin: 10px 5px;
+}
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+

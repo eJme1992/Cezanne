@@ -1,0 +1,398 @@
+.my-slider
+	@media screen and  (max-width: $break-sm)
+		height: 255px
+		overflow: hidden
+		ul li 
+			overflow: hidden
+			height: 255px
+			img 
+				width: 150%
+
+
+.contenido-slide
+	position: absolute
+	top: 20vh
+	left: 0
+	width: 100%
+	@media screen and  (max-width: $break-lg)
+		top: 10vh
+	@media screen and  (max-width: $break-md)
+		top: 2vh
+	@media screen and  (max-width: $break-sm)
+		height: 255px
+		top: 0
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		padding-top: 20px
+		background: rgba($negro,0.3)
+	.texto-slide
+		width: 100%
+		height: 400px
+		position: absolute
+		top: 20%
+		left: 0
+		@media screen and  (max-width: $break-sm)
+			position: relative
+			top: 0
+		.texto-dorado
+			width: 100%
+			position: absolute
+			left: 0
+			top: 40%
+			text-align: center
+			font-family: $fuenteCursiva
+			font-weight: $bold
+			font-style: italic
+			font-size: 700%
+			color: $color2
+			opacity: 0.4
+			text-transform: lowercase
+			letter-spacing: 5px
+			@media screen and  (max-width: $break-lg)
+				font-size: 600%
+			@media screen and  (max-width: $break-md)
+				font-size: 400%
+			@media screen and  (max-width: $break-sm)
+				font-size: 300%
+				letter-spacing: 3px
+				top: 38%
+		.texto-blanco
+			width: 100%
+			position: absolute
+			left: 0
+			top: 40%
+			text-align: center
+			font-family: $fuente
+			font-weight: $thin
+			font-size: 890%
+			color: $blanco
+			text-transform: uppercase
+			letter-spacing: 15px
+			@media screen and  (max-width: $break-lg)
+				font-size: 700%
+			@media screen and  (max-width: $break-md)
+				font-size: 500%
+			@media screen and  (max-width: $break-sm)
+				font-size: 290%
+				letter-spacing: 6px
+.cta-slide
+	width: 100%
+	position: absolute
+	left: 0
+	bottom: 150px
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap 
+	justify-content: center
+	@media screen and  (max-width: $break-lg)
+		bottom: 75px
+	@media screen and  (max-width: $break-md)
+		bottom: 50px
+	@media screen and  (max-width: $break-sm)
+		bottom: 15px
+	a 
+		margin: 0 auto
+		padding: 15px 30px
+		border: 1px solid $blanco
+		color: $blanco
+		font-family: $fuente
+		text-transform: uppercase
+		font-size: 110%
+		letter-spacing: 5px
+		transition: all 0.3s ease
+		@media screen and  (max-width: $break-sm)
+			padding: 15px 25px
+			font-size: 100%
+		&:hover
+			background: $color2
+			border-color: $color2
+			&:after 
+				color: $color2
+		&:after
+			content: '. .'
+			position: absolute
+			bottom: -25px
+			left: 49%
+			color: $blanco
+			font-family: $fuente
+			text-transform: uppercase
+			font-size: 110%
+			letter-spacing: 5px
+			transition: all 0.3s ease
+			@media screen and  (max-width: $break-sm)
+				display: none
+
+
+.bienvenidos
+	padding: 100px 0
+	@media screen and  (max-width: $break-sm)
+		padding-top: 85px
+	.titulo-bienvenidos
+		width: 100%
+		position: absolute
+		left: 0
+		top: 12%
+		text-align: center
+		z-index: 0
+		opacity: 0.15
+		@media screen and  (max-width: $break-sm)
+			top: 10%
+	.contenido-bienvenidos
+		width: 60%
+		margin: 0 auto
+		text-align: center
+		z-index: 1
+		@media screen and  (max-width: $break-md)
+			width: 75%
+		@media screen and  (max-width: $break-sm)
+			width: 85%
+	.cta-bienvenidos
+		width: 100%
+		margin-top: 35px
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap 
+		justify-content: center
+		@media screen and  (max-width: $break-sm)
+			width: 85%
+			margin: 35px auto 0 auto
+		a 
+			position: relative
+			margin: 0 auto
+			padding: 15px 30px
+			border: 1px solid $color2
+			color: $color2
+			font-family: $fuente
+			text-transform: uppercase
+			font-size: 110%
+			letter-spacing: 5px
+			transition: all 0.3s ease
+			@media screen and  (max-width: $break-sm)
+				font-size: 130%
+				letter-spacing: 3px
+				text-align: center
+				line-height: 1.5
+			&:hover
+				background: $color2
+				color: $blanco
+			&:after
+				content: '. .'
+				position: absolute
+				bottom: -25px
+				left: 49%
+				color: $color2
+				font-family: $fuente
+				text-transform: uppercase
+				font-size: 110%
+				letter-spacing: 5px
+				transition: all 0.3s ease
+
+.accesos-servicios
+	width: 80%
+	margin: 0 auto
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap 
+	justify-content: space-between
+	align-items: flex-start
+	.col 
+		width: 31%
+		display: flex
+		flex-direction: column
+		flex-wrap: wrap 
+		@media screen and  (max-width: $break-sm)
+			width: 100%
+		.acceso 
+			width: 100%
+			position: relative
+			margin-bottom: 35px
+			&:hover
+				.bg-hover-acceso
+					opacity: 1
+			a
+				width: 100%
+				.bg-acceso
+					width: 100%
+				.bg-hover-acceso
+					width: 100%
+					position: absolute
+					top: 0
+					left: 0
+
+					transition: all 0.3s ease
+					opacity: 0
+				.texto-acceso
+					width: 100%
+					position: absolute
+					left: 0
+					top: 40%
+					text-align: center
+					font-family: $fuenteCursiva
+					font-weight: $bold
+					font-style: italic
+					font-size: 291%
+					color: $blanco
+					text-transform: lowercase
+
+					display: flex
+					flex-direction: column
+					@media screen and  (max-width: $break-md)
+						font-size: 200%
+					@media screen and  (max-width: $break-sm)
+						font-size: 320%
+					span
+						width: 100%
+						color: $blanco
+						font-family: $fuente
+						font-weight: $light
+						font-style: normal
+						text-transform: uppercase
+						font-size: 35%
+						letter-spacing: 5px
+						margin-bottom: 5px
+
+.eventos
+	width: 100%
+	height: 560px
+	overflow: hidden
+	position: relative
+	padding: 60px auto
+	@media screen and  (max-width: $break-sm)
+		height: 900px
+	.bg-eventos
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background-image: url('../img/bg-eventos.png')
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center
+		transform: scale(1.1)
+	.contenido-eventos
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		display: flex
+		flex-direction: column
+		justify-content: center
+		.titulo-eventos
+			width: 100%
+			position: absolute
+			left: 0
+			top: 15%
+			text-align: center
+			z-index: 0
+			opacity: 0.15
+			@media screen and  (max-width: $break-sm)
+				top: 5%
+			h1
+				color: $blanco
+		.texto-eventos
+			text-align: center
+			width: 60%
+			margin: 0 auto
+			@media screen and  (max-width: $break-md)
+				width: 75%
+			@media screen and  (max-width: $break-sm)
+				width: 85%
+			h5 
+				color: $blanco
+				line-height: 1.3
+		.lista-eventos
+			width: 65%
+			margin: 60px auto 0 auto
+			display: flex
+			flex-direction: row
+			flex-wrap: wrap
+			justify-content: space-between
+			align-items: center
+			@media screen and  (max-width: $break-md)
+				width: 80%
+			@media screen and  (max-width: $break-sm)
+				justify-content: center
+			.evento 
+				width: 15%
+				display: flex
+				flex-direction: column
+				align-items: center
+				@media screen and  (max-width: $break-sm)
+					width: 48%
+					margin: 0 1% 20px 1%
+				.icono-evento
+					width: 60%
+					margin: 0 auto
+					position: relative
+					&:after
+						content: '. .'
+						position: absolute
+						bottom: -15px
+						left: 42%
+						color: $blanco
+						font-family: $fuente
+						text-transform: uppercase
+						font-size: 110%
+						letter-spacing: 2px
+						transition: all 0.3s ease
+				.nombre-evento 
+					width: 80%
+					color: $blanco
+					font-family: $fuente
+					text-transform: uppercase
+					text-align: center
+					margin: 30px auto 0 auto
+					@media screen and  (max-width: $break-md)
+						width: 100%
+					@media screen and  (max-width: $break-sm)
+						font-size: 120%
+						line-height: 1.3
+
+.intermedio
+	background-image: url('../img/bg-intermedio.png')
+	background-size: 22% auto
+	background-repeat: no-repeat
+	background-position: 82% 75%
+	padding: 50px 0 70px 0
+	@media screen and  (max-width: $break-sm)
+		padding-bottom: 25px
+	.intermedio-pt1
+		width: 80%
+		margin: 30px auto
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap 
+		justify-content: space-between
+		align-items: flex-start
+		@media screen and  (max-width: $break-md)
+			width: 95%
+		@media screen and  (max-width: $break-sm)
+			width: 100%
+			flex-direction: column-reverse
+		.intermedio-pt1-texto 
+			width: 48%
+			margin-top: 50px
+			@media screen and  (max-width: $break-lg)
+				margin-top: 20px
+			@media screen and  (max-width: $break-sm)
+				width: 100%
+				text-align: center
+		.intermedio-pt1-foto 
+			width: 45%
+			@media screen and  (max-width: $break-sm)
+				width: 100%
+	.intermedio-foto2
+		width: 35%
+		margin: -100px 35% 0 auto
+		@media screen and  (max-width: $break-lg)
+			margin-top: -50px
+		@media screen and  (max-width: $break-md)
+			margin-top: -70px
+			margin-left: 50%
+		@media screen and  (max-width: $break-sm)
+			width: 100%
+			margin: 20px 0 0 0
